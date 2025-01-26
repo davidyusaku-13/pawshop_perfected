@@ -17,7 +17,7 @@ export default function Orders() {
       <h1 className="text-3xl font-bold mb-8 text-primary">My Orders</h1>
       {orders.length === 0 ? (
         <p className="text-muted-foreground">
-          You haven't placed any orders yet.
+          You have not placed any orders yet.
         </p>
       ) : (
         <div className="space-y-6">
